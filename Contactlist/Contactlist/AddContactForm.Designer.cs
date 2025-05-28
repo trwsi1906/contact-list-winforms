@@ -35,6 +35,7 @@
             button1 = new Button();
             label3 = new Label();
             textBox3 = new TextBox();
+            label4 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -100,11 +101,21 @@
             textBox3.Size = new Size(170, 27);
             textBox3.TabIndex = 6;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(233, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(126, 20);
+            label4.TabIndex = 7;
+            label4.Text = "bo sung thong tin";
+            // 
             // AddContactForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(640, 360);
+            Controls.Add(label4);
             Controls.Add(textBox3);
             Controls.Add(label3);
             Controls.Add(button1);
@@ -114,7 +125,7 @@
             Controls.Add(textBox1);
             Margin = new Padding(2, 2, 2, 2);
             Name = "AddContactForm";
-            Text = "AddContactForm";
+            Text = "BO sung thong tin";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -128,5 +139,6 @@
         private Button button1;
         private Label label3;
         private TextBox textBox3;
+        private Label label4;
     }
 }
