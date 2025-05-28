@@ -35,28 +35,32 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(333, 160);
+            label1.Location = new Point(416, 200);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(133, 20);
+            label1.Size = new Size(159, 25);
             label1.TabIndex = 0;
             label1.Text = "Danh Sach Lien He";
             // 
             // button1
             // 
-            button1.Location = new Point(333, 306);
+            button1.Location = new Point(416, 382);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(133, 37);
+            button1.Size = new Size(166, 46);
             button1.TabIndex = 1;
             button1.Text = "Them Lien He";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Mainform
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1000, 562);
             Controls.Add(button1);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Mainform";
             Text = "Form1";
             ResumeLayout(false);
